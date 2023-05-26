@@ -1,6 +1,12 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
 .paragraph {
     border: solid 1px;
     padding: 20px;
     border-radius: 8px;
     margin: 30px;
+    width: 60%;
 }

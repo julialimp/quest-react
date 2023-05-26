@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Basic React Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the DevQuest Challenge.
 
 ## Available Scripts
 
@@ -29,42 +29,66 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Table of contents
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Overview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### The challenge
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Users should be able to:
 
-## Learn More
+- See an alert with the button's label when you click on the button
+- Change the paragraph style when you click on the paragraph area.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Screenshot
+#### Default
+<a href="#" target="_blank">
+  <img src="./src/images/screenshot-default.JPG">
+</a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Colorful
+<a href="#" target="_blank">
+  <img src="./src/images/screenshot-color.JPG">
+</a>
 
-### Code Splitting
+### Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Solution URL: [Solution URL - Repository](https://github.com/julialimp/quest-react)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## My process
 
-### Making a Progressive Web App
+### Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- CSS custom properties
+- JavaScript
+- React.js
+- Components
+- useState and useContext hooks
 
-### Advanced Configuration
+### What I learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+With this project I was able to put in practice the use of components with the use of hooks such as useState, useContext and createContext. I had some difficulty to make the paragraph style changing work, but I did a lot of research and could make it work the way I expected.
 
-### Deployment
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Even being able to make everything work, it took me a long time to connect everything and elaborate the logical process of the project, so I can see I have to pratice more often to make it in an easier way and more functional.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+
+- Linkedin - [Juia Limp](https://www.linkedin.com/in/julia-limp-de-almeida-675953121?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZJi4VgNnTlSIG5FKPrpXAg%3D%3D)
+- Instagram - [@julialimp](https://www.instagram.com/julialimp)
+- GitHub - [@julialimp](https://github.com/julialimp)
+
+

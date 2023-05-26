@@ -1,22 +1,29 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ParagraphStyleContext } from '../../contexts/style-context'
 import './paragraph.css'
 
-const Paragraph = ({ children, color, backgroundColor, border, textTransform }) => {
-    return (
-        <p
-            className='paragraph' style={{ color: color, backgroundColor: backgroundColor, border: border, textTransform: textTransform }}
-        >
-            {children}
+const Paragraph = (props) => {
+    const { paragraphStyle } = useContext(ParagraphStyleContext)
 
-        </p>
+    return (
+        <div>
+            <p {...props} className='paragraph'
+                style={{color: paragraphStyle.color, backgroundColor: paragraphStyle.backgroundColor, border: paragraphStyle.border, textTransform: paragraphStyle.textTransform}}
+            >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Blanditiis quisquam incidunt inventore.Ipsum commodi explicabo ipsa eos odit aliquam, sapiente ducimus ?
+                <br /><br />
+
+                To change paragraph style click on this text area.
+            </p>
+        </div>
     )
 }
 
-// Paragraph.defaultProps = {
-//     color: 'lightgrey',
-//     backgroundColor: 'grey',
-//     border: 'black',
-//     textTransform: 'uppercase'
-// }
+Paragraph.defaultProps = {
+    color: 'lightgrey',
+    backgroundColor: 'grey',
+    border: 'black',
+    textTransform: 'initial'
+}
 
 export default Paragraph

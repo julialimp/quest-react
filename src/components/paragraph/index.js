@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { ParagraphStyleContext } from '../../contexts/style-context'
-import './paragraph.css'
+import './index.css'
 
 const Paragraph = (props) => {
     const { paragraphStyle } = useContext(ParagraphStyleContext)

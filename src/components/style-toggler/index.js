@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ParagraphStyleContext, styles } from "../../contexts/style-context";
-import Paragraph from "../paragraph/paragraph";
+import Paragraph from "../paragraph/index";
 
 
 export const StyleToggler = () => {

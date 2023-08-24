@@ -1,7 +1,6 @@
-import './App.css';
-import Button from './components/button/button';
+import AlertButton from './components/alertButton/index';
 import { ParagraphStyleProvider } from './contexts/style-context';
-import { StyleToggler } from './components/style-toggler/style-toggler';
+import { StyleToggler } from './components/style-toggler/index';
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
           <StyleToggler />
         </ParagraphStyleProvider>
 
-        < Button label="Click here to see button's label" />
+        < AlertButton label="Click here to see button's label" />
       </header>
     </div>
   );
